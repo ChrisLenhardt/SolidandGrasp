@@ -2,16 +2,43 @@ public abstract class Task implements Assignable {
     private String title;
     private Date dueDate;
     private Boolean status;
-    private int prio;
+    private int priority;
+    private Task[] tasks;
 
     public void setProject() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setProject'");
+
     }
 
     public void getProject() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setProject'");
+
+    }
+
+    public void setDueDate() {
+
+    }
+
+    public Date getDueDate() {
+
+    }
+
+    public void setStatus() {
+
+    }
+
+    public boolean getStatus() {
+
+    }
+    public void setPriority() {
+
+    }
+
+    public int getPriority() {
+
+    }
+    //task with the highest priority and if they match then check status
+    public Task priorityTask() {
+        Task maxTask = null;
+        return maxTask;
     }
 
 }
