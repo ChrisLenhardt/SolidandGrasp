@@ -4,37 +4,37 @@ public class TeamMember implements Member{
     private String email;
 
     @Override
-    public void setProject() {
+    public void setProject(Project project) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setProject'");
     }
 
     @Override
-    public void getProject() {
+    public Project getProject() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getProject'");
     }
 
     @Override
-    public void setName() {
+    public void setName(String name) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setName'");
     }
 
     @Override
-    public void getName() {
+    public String getName() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getName'");
     }
 
     @Override
-    public void setEmail() {
+    public void setEmail(String email) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setEmail'");
     }
 
     @Override
-    public void getEmail() {
+    public String getEmail() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getEmail'");
     }
