@@ -1,4 +1,4 @@
 public interface Assignable {
-    public void setProject();
-    public void getProject();
+    public void setProject(Project project);
+    public Project getProject();
 }

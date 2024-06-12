@@ -1,6 +1,6 @@
 public interface Member extends Assignable {
-    public void setName();
-    public void getName();
-    public void setEmail();
-    public void getEmail();
+    public void setName(String name);
+    public String getName();
+    public void setEmail(String email);
+    public String getEmail();
 }
