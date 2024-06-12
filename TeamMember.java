@@ -1,4 +1,7 @@
 public class TeamMember implements Member{
+    private Project project;
+    private String name;
+    private String email;
 
     @Override
     public void setProject() {
