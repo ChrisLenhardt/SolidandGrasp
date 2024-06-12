@@ -5,4 +5,10 @@ public class RecurringTask extends Task{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setProject'");
     }
+
+    @Override
+    public void setProject(Project project) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setProject'");
+    }
 }
