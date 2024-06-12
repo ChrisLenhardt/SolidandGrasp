@@ -1,0 +1,17 @@
+Participating Team Members:
+Chris Lenhardt, Will Barnes, Grady Gillam, Jayden Coleman, Mickey Paulus
+
+This system implements the solid and grasp principles of liskov substitution, 
+dependency inversion, interface segregation, low coupling
+and open closed principle. Liskov Substitution is demonstrated because
+all of the superclasses in our system have methods and variables which
+are relevant and used by all of their children. For example, the sub classes
+of Task, GeneralizedTask and SpecializedTask, extend the behavior of Task. We
+implemented dependency inversion by coding on the interface level, such that
+our abstractions are not dependent on the implementations.
+Interface segregation is used because our member interface has only methods
+specific to the classes needs. We utilized low coupling because none of our modules
+involve content coupling or control coupling. Finally, we employed the
+open closed principle by utilizing interfaces and generalization.
+The existing classes have functionality which can be extended by implementing
+interfaces, but it is closed for changes.
