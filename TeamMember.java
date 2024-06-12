@@ -3,40 +3,40 @@ public class TeamMember implements Member{
     private String name;
     private String email;
 
+    private String name;
+    private String email;
+    private Project project;
+
+
+
     @Override
     public void setProject(Project project) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setProject'");
+        this.project = project;
     }
 
     @Override
     public Project getProject() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getProject'");
+        return this.project;
     }
 
     @Override
     public void setName(String name) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setName'");
+        this.name = name;
     }
 
     @Override
     public String getName() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getName'");
+        return this.name;
     }
 
     @Override
     public void setEmail(String email) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setEmail'");
+        this.email = email;
     }
 
     @Override
     public String getEmail() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getEmail'");
+        return email;
     }
 
 }
